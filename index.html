@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mi primer diseño de portfolio personal" />
+    <meta
+      name="keywords"
+      content="portfolio, personal, frontend, developer, html, css, js, react"
+    />
+    <meta name="author" content="Rocha Eloy Emmanuel" />
+    <meta name="copyright" content="Copyright 2022" />
+    <link rel="icon" href="./img/favicon.png" />
+    <title>Portfolio - Eloy Rocha</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Css -->
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="contenedor-menu">
+        <!-- Barra de Navegación-->
+
+        <div class="logo-menu">
+          <!-- Logo de Barra de Navegación-->
+          <a href="#"> <img src="./img/icon.png" alt="Isotipo" /> </a>
+        </div>
+
+        <div class="navbar-menu">
+          <!-- Link's de Barra de Navegación-->
+          <nav id="nav__barras">
+            <ul>
+              <li><a class="nav-link" href="#sobre-mi"> Sobre mí </a></li>
+              <li><a class="nav-link" href="#habilidades"> Habilidades </a></li>
+
+              <li><a class="nav-link" href="#proyectos"> Proyectos </a></li>
+
+              <li><a class="nav-link" href="#contacto"> Contacto </a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="barras-menu" id="btn_menu">
+          <!-- Menu Hamburguesa -->
+
+          <span class="linea1"></span>
+
+          <span class="linea2"></span>
+
+          <span class="linea3"></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="banner-principal">
+        <div class="presentacion">
+          <h1>Bienvenidos</h1>
+
+          <h2>Soy <span> Rocha Eloy </span>, Desarrollador Web</h2>
+        </div>
+
+        <div>
+          <!-- Video -->
+
+          <video loop="true" muted autoplay width="100%">
+            <source src="./videos/conexion.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <!-- Sección Sobre mí -->
+      <h2 class="titulos-generales" id="sobre-mi">Sobre Mí</h2>
+
+      <div class="contenedor-perfil">
+        <div class="imagen-perfil">
+          <img src="./img/avatar.png" alt="" width="300px" />
+        </div>
+
+        <div class="perfil">
+          <p>
+            Mi nombre es Eloy Emmanuel Rocha, nací un 16 de julio de 1997 en la
+            provincia de Córdoba, Argentina.
+          </p>
+
+          <p>
+            Mi trayectoria en el mundo del desarrollo no tiene un comienzo
+            marcado, pero estimaría que llevo aproximadamente un año y algunos
+            meses en este campo. Recientemente, he logrado cerrar metas y
+            reabrir proyectos que me emocionan muchísimo. Soy graduado del
+            bootcamp Soy Henry como Fullstack Developer. Durante mi formación,
+            he adquirido conocimientos y habilidades en diversas tecnologías,
+            librerías y frameworks como React Js, Redux, Node Js, PostgresSQL,
+            Sequelize, Leaflet, Auth0, así como también en metodología Scrum y
+            herramientas como Jira, entre otras. Me apasiona formar parte de
+            este mundo de las redes y el desarrollo, el cual está en constante
+            evolución. Siempre me esfuerzo por mantenerme actualizado en las
+            últimas tecnologías y tendencias del campo.
+          </p>
+
+          <div class="archivos-perfil">
+            <!-- Botón Henry-->
+            <a
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7082477504589946880/"
+              target="_blank"
+            >
+              <button class="btn-perfil">
+                Ver Certificado
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </button>
+            </a>
+
+            <!-- Botón Descargar CV-->
+            <a href="./files/Cv.pdf" download="CurriculumVitaeEloyRocha">
+              <button class="btn-perfil">
+                Descargar CV <i class="fa-solid fa-download"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="espacio" />
+
+      <!-- Sección de Habilidades-->
+      <h2 class="titulos-generales" id="habilidades">Habilidades</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="habilidades">
+          <img src="./img/html.png" alt="Imagen de logotipo HTML" />
+          <h5>HTML 5</h5>
+        </div>
+
+        <div class="habilidades">
+          <img src="./img/css.png" alt="Imagen de logotipo CSS" />
+          <h5>CSS 3</h5>
+        </div>
+
+        <div class="habilidades">
+          <img src="./img/javascript.png" alt="Imagen de logotipo JS" />
+          <h5>JavaScript</h5>
+        </div>
+
+        <div class="habilidades">
+          <img src="./img/bootstrap.png" alt="Imagen de logotipo BT" />
+          <h5>Bootstrap</h5>
+        </div>
+
+        <div class="habilidades">
+          <img src="./img/Postgres.png" alt="Imagen de logotipo PostgresSQL" />
+          <h5>PostgresSQL</h5>
+        </div>
+
+        <div class="habilidades">
+          <img src="./img/nodejs.png" alt="Imagen de logotipo NODE JS" />
+          <h5>Node JS</h5>
+        </div>
+      </div>
+
+      <hr class="espacio" />
+
+      <!-- Sección de Proyectos-->
+      <h2 class="titulos-generales" id="proyectos">Mis Proyectos</h2>
+
+      <div class="contenedor-proyectos">
+        <div class="card-proyecto">
+          <figure>
+            <img
+              src="./img/Dogs.png"
+              alt="Imagen del proyecto Dogs"
+              width="500px"
+            />
+          </figure>
+
+          <div class="contenido">
+            <h3>Api Dogs</h3>
+            <p>
+              El proyecto se desarrolló utilizando Express, React, Redux y Node.
+              Se trata de una API que funciona como una página de perros, donde
+              se pueden aplicar filtros de búsqueda, utilizar una barra de
+              búsqueda y acceder a una sección con detalles de cada raza.
+              Permite buscar y ordenar razas por nombre, peso y temperamento, y
+              también ingresar el nombre directamente. La sección de detalles
+              brinda información sobre origen, tamaño, esperanza de vida y
+              comportamiento de la raza. Además, se puede agregar nuevas razas a
+              través de un formulario. En resumen, esta API proporciona una
+              experiencia interactiva y fácil de usar para explorar!
+            </p>
+          </div>
+
+          <div class="contenedor-btn-proyecto">
+            <!-- <button class="btn-proyecto">
+              <a
+                href="https://"
+                target="_blank"
+              >
+                Ver Pagina
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </button> -->
+
+            <button class="btn-proyecto">
+              <a
+                href="https://github.com/EloyRocha97/Eloy-Dogs"
+                target="_blank"
+              >
+                Ver Repositorio <i class="fa-brands fa-github"></i>
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="card-proyecto">
+          <figure>
+            <img
+              src="./img/Pets.png"
+              alt="Imagen de pagina web Pets-Bridge"
+              width="500px"
+            />
+          </figure>
+
+          <div class="contenido">
+            <h3>Pets-Bridge</h3>
+            <p>
+              El proyecto consiste en el desarrollo de una aplicación web
+              utilizando Next.js en el front y Nest.js en el back, con el
+              objetivo de crear una plataforma donde diferentes asociaciones y
+              organizaciones dedicadas al rescate y cuidado de animales puedan
+              publicar información sobre las mascotas que tienen disponibles
+              para apción. El proyecto contiene una pasarela de pago(strapi),
+              autenticacion de terceros (nextAuth), filtrados, dashboard de
+              admin, subida de archivos a cloudinary!
+            </p>
+          </div>
+
+          <div class="contenedor-btn-proyecto">
+            <button class="btn-proyecto">
+              <a href="https://petbridge.vercel.app/" target="_blank">
+                Ver Pagina
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </button>
+
+            <!-- <button class="btn-proyecto">
+              <a
+                href="https://github.com"
+                target="_blank"
+              >
+                Ver Repositorio <i class="fa-brands fa-github"></i>
+              </a>
+            </button> -->
+          </div>
+        </div>
+      </div>
+
+      <hr class="espacio" />
+
+      <!-- Sección de Contactos-->
+      <h2 class="titulos-generales" id="contacto">Contacto</h2>
+
+      <div class="formulario">
+        <!-- Inicio - Formulario -->
+
+        <form action="">
+          <p>Nombre y Apellido</p>
+          <input type="text" />
+
+          <p>Correo Electrónico</p>
+          <input type="text" />
+
+          <p>Asunto</p>
+          <input type="text" />
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Inserte su mensaje aqui..."
+          ></textarea>
+
+          <input
+            type="submit"
+            onclick="alert (`Si tan solo funcionara... pero aún puedes enviar un correo electrónico. 😊`)"
+            value="Enviar"
+            class="btn-enviar"
+          />
+        </form>
+      </div>
+      <!-- Fin- Formulario -->
+
+      <div class="contenedor-redes">
+        <div class="banner-redes">
+          <div class="icon-redes">
+            <img src="./img/redes.png" alt="" width="400px" />
+          </div>
+
+          <div class="texto-redes">
+            <a href="https://github.com/EloyRocha97" target="_blank">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/eloy-rocha-6a92901b3/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i> Linkedin
+            </a>
+
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              rochaeloy11@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hecho por Rocha Eloy Emmanuel</p>
+    </footer>
+
+    <script src="./js/menu-responsive.js"></script>
+  </body>
+</html>
