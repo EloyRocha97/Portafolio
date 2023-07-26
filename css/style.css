@@ -186,7 +186,7 @@ a {
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 70px;
   font-family: "Questrial", sans-serif;
   font-size: 20px;
   border: black solid thin;
@@ -199,7 +199,7 @@ a {
 .perfil {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   width: 1100px;
   font-family: "Questrial", sans-serif;
   line-height: 30px;
