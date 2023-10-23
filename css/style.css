@@ -311,7 +311,7 @@ a {
 .contenedor-btn-proyecto {
   display: flex;
   gap: 50px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .btn-proyecto {
